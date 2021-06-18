@@ -8,10 +8,10 @@
 
 **例子：**
 ```js
+const path = require('path');
+
 // 导入file-operate
 const readDir = require(path.resolve(__dirname, 'file-operate'));
-
-const path = require('path');
 
 // 得到需要获取子目录或文件的路径
 const filename = path.resolve(__dirname, 'test');
